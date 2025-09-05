@@ -7,7 +7,7 @@ arch=('aarch64')
 url="https://developer.nvidia.com/embedded/linux-tegra-r3276"
 license=('custom:NVIDIA')
 groups=('nvidia')
-depends=('nvidia-l4t-core<32.8' 'nvidia-l4t-core>32.7' 'nvidia-l4t-init<32.8' 'nvidia-l4t-init>32.7' 'nvidia-l4t-tools=32.7.3')
+depends=('nvidia-l4t-core<32.8' 'nvidia-l4t-core>32.7' 'nvidia-l4t-init<32.8' 'nvidia-l4t-init>32.7' 'nvidia-l4t-tools=32.7.6')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source=("https://repo.download.nvidia.com/jetson/t210/pool/main/n/nvidia-l4t-xusb-firmware/nvidia-l4t-xusb-firmware_32.7.6-20241104234540_arm64.deb")
