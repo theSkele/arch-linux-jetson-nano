@@ -1,6 +1,0 @@
-debs
-*.xz
-*.gz
-*.deb
-pkg/
-src/
